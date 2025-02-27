@@ -125,7 +125,7 @@ export default function HomeScreen() {
     const [completedDoses, setCompletedDoses] = useState(0);
     const [doseHistory, setDoseHistory] = useState<DoseHistory[]>([]);
     const [medications, setMedications] = useState<Medication[]>([]);
-
+//home 
     const loadMedications = useCallback(async()=>{
         try {
             const [allMedications, todaysDoses] = await Promise.all([
